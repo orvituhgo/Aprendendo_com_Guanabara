@@ -14,7 +14,7 @@ def leiaFloat(pergunta):
         try:
             entrada = float(input(pergunta))
         except:
-            print('\033[4;31m>>> ERRO <<< DIGITE UM NÚMERO INTEIRO\033[m')
+            print('\033[4;31m>>> ERRO <<< DIGITE UM NÚMERO REAL COM PONTO\033[m')
         else:
             break
     return entrada
