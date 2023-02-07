@@ -1,0 +1,6 @@
+n = input('insert a number between 0 and 9999: ').zfill(4)
+print('You have inserted {}'.format(n))
+print('milhar: {}'.format(n[0]))
+print('centena: {}'.format(n[1]))
+print('dezena: {}'.format(n[2]))
+print('unidade: {}'.format(n[3]))
